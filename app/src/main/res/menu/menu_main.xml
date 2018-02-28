@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aditya.action_bar.MainActivity">
+    <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="4"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:title="My Cart"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+     />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/seting" />
+</menu>
